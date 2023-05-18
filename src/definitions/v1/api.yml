@@ -1,0 +1,12 @@
+openapi: 3.0.0
+info:
+  title: FER Workshop - OpenAPI
+  version: 1.0.0
+servers:
+  - url: http://localhost:4000
+    description: 'Local dev server'
+paths: {}
+components:
+  schemas:
+    getTeams:
+      type: string
